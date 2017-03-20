@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+.header{
+    height:100px;
+    width:100%;
+    background-color: #a6a4d0
+}
+.footer{
+    height:100px;
+    width:100%;
+    background-color: #a6a4d0;
+}
+.head{
+  width:100%;
+}
+.foot{
+  width:100%;
+  position: absolute;
+  bottom: 0;
+}
