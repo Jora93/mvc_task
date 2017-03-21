@@ -1,6 +1,4 @@
-<?php
-    include_once '../controllers/loginController.php';
-?>
+
 <div class="container">
     <h2>Login</h2>
   <form method="post" action="#">

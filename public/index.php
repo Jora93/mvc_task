@@ -3,9 +3,14 @@ session_start();
 include '../models/DbConnect.php';
 include '../models/Database.php';
 include 'Route.php';
+require_once '../vendor/autoload.php';
+
+
+
 $param = $_SERVER['REQUEST_URI'];
 $objRoute = new Route();
 $viewName = $objRoute->viewName($param);
+
 $obj = new Database('users');
 ?>
 <!DOCTYPE html>
@@ -23,5 +28,6 @@ $obj = new Database('users');
         <?php include_once 'view/header.php'; ?>
         <?php include_once $viewName;         ?>
         <?php include_once 'view/footer.php'; ?>
+        
     </body>
 </html>

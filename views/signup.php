@@ -1,6 +1,4 @@
-<?php
-    include_once '../controllers/signupController.php';
-?>
+
 <div class="container">
     <h2>Sign up</h2>
   <form method="post" action="#">
