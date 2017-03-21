@@ -1,5 +1,6 @@
 {
     "require": {
-    	"sameer-shelavale/php-countries-array": "*"
+    	"sameer-shelavale/php-countries-array": "*",
+        "guzzlehttp/guzzle": "^6.2"
     }
 }
